@@ -1,8 +1,8 @@
 ﻿const config = {
-	user: 'db_a6478c_dafer_admin',
-	password: 'razors1805',
-	server: 'sql5064.site4now.net',
-	database: 'db_a6478c_dafer',
+	user: 'DB_A54053_Respaldobd_admin',
+	password: 'Alexis2020',
+	server: 'SQL5049.site4now.net',
+	database: 'DB_A54053_Respaldobd',
 	pool: {	max: 100,	min: 0,	idleTimeoutMillis: 30000}
 };
 
@@ -20,7 +20,8 @@ let execute = {
 			new sql.Request(pool1)
 			.query(sqlqry, (err, result) => {
 				if(err){
-					res.send(err.message)
+					//res.send(err.message)
+					res.send('error');
 				}else{
 					res.send(result);
 				}					
@@ -28,12 +29,13 @@ let execute = {
 			sql.close();  
 		  })
 		  pool1.on('error', err => {
+				res.send('error');
 			  console.log('error sql = ' + err);
 			  sql.close();
 		  })
 		} catch (error) {
-		  res.send('Error al ejecutar la consulta: ' + error)   
-		  sql.close();
+			res.send('error');   
+		  	sql.close();
 		}
 	},
 	QueryNoSend : (res,sqlqry)=>{

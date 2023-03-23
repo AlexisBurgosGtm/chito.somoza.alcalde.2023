@@ -1,0 +1,98 @@
+.btn-bottom-ml { 
+    position: fixed;
+    z-index: 1088;
+    left: 20%;
+    right: 80%;
+    bottom: 35px;
+  }
+  
+  .btn-bottom-mr { 
+    position: fixed;
+    z-index: 1088;
+    left: 50%;
+    right: 50%;
+    bottom: 35px;
+  }
+  
+  .btn-bottom-r { 
+    position: fixed;
+    z-index: 1088;
+    left: 80%;
+    right: 20%;
+    bottom: 35px;
+    }
+  
+  
+  
+  
+  
+  .currSign:before {
+    content: 'Q';
+  }
+  
+  .fontsmall {
+      font-size: 90%;
+  
+  };
+  
+  .btn-bottom-right { 
+    position: fixed;
+    z-index: 1088;
+    right: 21px;
+    bottom: 15px;
+    }
+  
+  .btn-bottom-left { 
+    position: fixed;
+    z-index: 1088;
+    left: 21px;
+    bottom: 15px;
+    }
+  
+  .btn-bottom-middle { 
+        position: fixed;
+        z-index: 1088;
+        left: 50%;
+        right: 50%;
+        bottom: 15px;
+  }
+  
+
+  
+.card-rounded {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  
+
+  .negrita {
+    font-weight: bold;
+  }
+  
+  
+  
+  .toppegado {
+    margin-top: 0px;
+  };
+  
+  .hidden{
+    visibility: hidden;
+  }
+
+  
+  .cursormano{
+    cursor: pointer;
+  }
+
+  .btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}

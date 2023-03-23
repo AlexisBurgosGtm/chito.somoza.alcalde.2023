@@ -1,1 +1,250 @@
-<img src="./prop/perf.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nolverto Somoza</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  
+  <link rel="manifest" href="manifest.json">
+  <script defer="defer" src="/static/js/main.fe288fa6.js"></script>
+ 
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1>Chito Somoza</h1>
+        <h5>Bienvenido a nuestro portal de comunicación</h5>
+       
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Inicio</a></li>
+          <li><a href="#solicitud">Solicitudes</a></li>
+          <li><a href="#inscripcion">Inscríbete</a></li>
+          
+        </ul>
+      </nav>
+
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  
+  <section id="intro">
+    <a href="#intro"><img src="img/icons/192.png" alt="" title="" width="auto" height="auto"></a>
+  </section>
+  <br>
+  <br>
+  
+  <main id="main">
+
+    <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="card card-rounded border-sucess bg-white shadow bounceOutLeft" id="solicitud">
+                <div class="card-body p-6">
+                    <h5 class="text-success">Hazle una solicitud a Chito</h5>
+                    
+                    <br>
+
+                    <div class="form-group">
+                      <label class="text-success">Tu número de DPI</label>
+                      <input type="number" class="form-control" placeholder="Escribe tu DPI" maxlength="13" id="txtSolDpi">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="text-success">¿Contanos como podemos ayudarte?</label>
+                      <textarea rows="4" class="form-control" placeholder="Escribe tu solicitud" id="txtSolSolicitud"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="text-success">¡Danos tu número de Teléfono para responderte!</label>
+                      <input type="number" class="form-control" placeholder="Escribe tu número de teléfono" maxlength="8" id="txtSolTelefono">
+                    </div>
+
+                    <div class="row">
+                      <div class="col-6">
+                        <img src="./img/manos.jpg" width="200px" height="140px">
+                      </div>
+                      <div class="col-6">
+                        <br><br>
+                          <button class="btn btn-success btn-lg btn-rounded hand shadow" id="btnSolEnviar">
+                            Enviar solicitud !!
+                          </button>    
+                      </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="card card-rounded border-sucess bg-white shadow bounceOutLeft" id="inscripcion">
+                <div class="card-body p-6">
+                    <h5 class="text-danger">Inscríbete para Participar por Premios de parte de tu amigo Nolverto Somoza</h5>
+                    <div class="form-group">
+                      <label class="text-success">Tu número de DPI</label>
+                      <input type="number" class="form-control" placeholder="Escribe tu DPI" maxlength="13" id="txtInsDpi">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="text-success">¡Danos tu número de Teléfono para que puedas participar!</label>
+                      <input type="number" class="form-control" placeholder="Escribe tu número de teléfono" maxlength="8" id="txtInsTelefono">
+                    </div>
+
+                    <div class="form-group">
+                      <label class="text-success">¿A qué sector perteneces?</label>
+                      <select class="form-control" id="cmbInsComunidad">
+                        <option value="CENTRO DE MULUA">CENTRO DE MULUA</option>
+                        <option value="LAS TRES MARIAS">LAS TRES MARIAS</option>
+                        <option value="CHAPARRAL">CHAPARRAL</option>
+                        <option value="EL ROJO">EL ROJO</option>
+                        <option value="BRILLANTES">BRILLANTES</option>
+                        <option value="SIGLO I">SIGLO I</option>
+                        <option value="SIGLO II">SIGLO II</option>
+                        <option value="LOLITA">LOLITA</option>
+                        <option value="MANGALES">MANGALES</option>
+                        <option value="BOXOMA">BOXOMA</option>
+                      </select>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-6">
+                        <img src="./img/regalos.png" width="200px" height="120px">
+                      </div>
+                      <div class="col-6">
+                        <br><br>
+                        <button class="btn btn-success btn-lg btn-rounded hand shadow" id="btnInsEnviar">
+                          Inscribíme !!
+                      </button>    
+                      </div>
+                    </div>
+                    
+
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+ 
+  </main>
+
+<!--
+  <section id="more-features" class="section-bg hidden">
+    <div class="container">
+
+      <div class="section-header">
+        <h3 class="section-title">More Features</h3>
+        <span class="section-divider"></span>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="box wow fadeInLeft">
+            <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="box wow fadeInRight">
+            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="box wow fadeInLeft">
+            <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="box wow fadeInRight">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+-->
+
+  
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          
+          <div class="credits">
+           
+            Designed by Alexis Burgos
+          </div>
+        </div>
+        <div class="col-lg-6">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+ 
+  <script src="js/main.js"></script>
+  <script src="index.js"></script>
+  
+
+</body>
+
+</html>
